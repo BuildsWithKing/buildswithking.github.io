@@ -1,52 +1,94 @@
-<!DOCTYPE html><html lang="en"><head>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Michealking | Solidity Dev</title>
   <script src="https://cdn.tailwindcss.com"></script>
-</head><body class="bg-gray-100 text-gray-900 font-sans">
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans">
+
   <!-- Hero Section -->
-  <section class="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-br from-blue-100 to-purple-200 p-6">
+  <section class="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-br from-indigo-900 to-gray-900 text-white p-6">
+    <img src="profile.jpg" alt="Michealking Profile" class="w-32 h-32 rounded-full border-4 border-white mb-4" />
     <h1 class="text-4xl md:text-6xl font-bold mb-2">Christian Ekegbuchunam</h1>
-    <p class="text-xl md:text-2xl font-medium text-blue-800">aka <span class="font-bold">Michealking</span> 👑</p>
-    <p class="mt-4 text-lg text-gray-700">Building 30 Smart Contracts in 30 Days 🚀</p>
+    <p class="text-xl md:text-2xl font-medium">aka <span class="font-bold text-yellow-300">Michealking 👑</span></p>
+    <p class="mt-4 text-lg">Building 30 Smart Contracts in 30 Days 🚀</p>
     <div class="mt-6 flex gap-4">
       <a href="https://github.com/BuildsWithKing" class="text-white bg-black px-4 py-2 rounded hover:bg-gray-800" target="_blank">GitHub</a>
       <a href="https://x.com/BuildsWithKing" class="text-white bg-blue-500 px-4 py-2 rounded hover:bg-blue-600" target="_blank">Twitter</a>
+      <a href="https://www.linkedin.com/in/christian-michealking" class="text-white bg-blue-700 px-4 py-2 rounded hover:bg-blue-800" target="_blank">LinkedIn</a>
     </div>
-  </section>  <!-- About Section -->  <section class="py-12 px-6 bg-white">
+  </section>
+
+  <!-- About Section -->
+  <section class="py-12 px-6 bg-white">
     <div class="max-w-3xl mx-auto text-center">
       <h2 class="text-3xl font-bold mb-4">About Me</h2>
       <p class="text-lg text-gray-600">
-        I'm a Solidity developer in training, currently building one smart contract every day as part of my 30 Days of Solidity Challenge. My mission is to master blockchain backend development by showing up daily and sharing my progress in public.
+        I’m Christian Ekegbuchunam, known online as Michealking 👑. I’m a passionate Solidity developer in training, building one smart contract every day as part of my 30 Days of Solidity Challenge. My goal is to master blockchain backend development, build in public, and grow into a world-class smart contract engineer. I believe mastery comes through consistency, and I’m here to prove it.
       </p>
     </div>
-  </section>  <!-- Projects Section -->  <section class="py-12 px-6 bg-gray-50">
+  </section>
+
+  <!-- Projects Section -->
+  <section class="py-12 px-6 bg-gray-50">
     <div class="max-w-4xl mx-auto">
       <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
       <div class="grid gap-6 md:grid-cols-2">
         <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">VoterVault</h3>
-          <p class="mb-2 text-gray-600">A decentralized voting system with proposals, registration, and vote tracking.</p>
-          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day009-VoterVault" target="_blank" class="text-blue-600 hover:underline">View on GitHub</a>
+          <h3 class="text-xl font-semibold mb-2">UserStorage</h3>
+          <p class="mb-2 text-gray-600">Store & update user info like name and age using a mapping.</p>
+          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day001-UserStorage" class="text-blue-600 hover:underline">View on GitHub</a>
         </div>
         <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">DonationVault</h3>
-          <p class="mb-2 text-gray-600">A contract where users can donate ETH, and only the owner can withdraw it securely.</p>
-          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day007-DonationVaultDapp" target="_blank" class="text-blue-600 hover:underline">View on GitHub</a>
+          <h3 class="text-xl font-semibold mb-2">QuoteVault</h3>
+          <p class="mb-2 text-gray-600">Store your favorite quote. Simple mapping storage.</p>
+          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day002-QuoteVault" class="text-blue-600 hover:underline">View on GitHub</a>
         </div>
         <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">SimpleBank</h3>
-          <p class="mb-2 text-gray-600">A basic ETH bank system with deposit, withdraw, and owner access control.</p>
-          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day006-SimpleBank" target="_blank" class="text-blue-600 hover:underline">View on GitHub</a>
+          <h3 class="text-xl font-semibold mb-2">DreamVault</h3>
+          <p class="mb-2 text-gray-600">Save, update, and view personal dreams using structs and mappings.</p>
+          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day003-DreamVault" class="text-blue-600 hover:underline">View on GitHub</a>
+        </div>
+        <div class="bg-white shadow p-6 rounded-xl">
+          <h3 class="text-xl font-semibold mb-2">TodoList</h3>
+          <p class="mb-2 text-gray-600">Add, update, and delete tasks using array and mappings.</p>
+          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day004-TodoList" class="text-blue-600 hover:underline">View on GitHub</a>
         </div>
         <div class="bg-white shadow p-6 rounded-xl">
           <h3 class="text-xl font-semibold mb-2">WhiteList</h3>
-          <p class="mb-2 text-gray-600">Manage access to features by maintaining a list of allowed addresses.</p>
-          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day005-WhitelistDapp" target="_blank" class="text-blue-600 hover:underline">View on GitHub</a>
+          <p class="mb-2 text-gray-600">Manage access using a boolean whitelist mapping system.</p>
+          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day005-WhitelistDapp" class="text-blue-600 hover:underline">View on GitHub</a>
+        </div>
+        <div class="bg-white shadow p-6 rounded-xl">
+          <h3 class="text-xl font-semibold mb-2">SimpleBank</h3>
+          <p class="mb-2 text-gray-600">Deposit & withdraw ETH securely with access control.</p>
+          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day006-SimpleBank" class="text-blue-600 hover:underline">View on GitHub</a>
+        </div>
+        <div class="bg-white shadow p-6 rounded-xl">
+          <h3 class="text-xl font-semibold mb-2">DonationVault</h3>
+          <p class="mb-2 text-gray-600">Receive ETH donations and withdraw only by the contract owner.</p>
+          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day007-DonationVaultDapp" class="text-blue-600 hover:underline">View on GitHub</a>
+        </div>
+        <div class="bg-white shadow p-6 rounded-xl">
+          <h3 class="text-xl font-semibold mb-2">BasicKYC</h3>
+          <p class="mb-2 text-gray-600">Register users and mark them as verified or not.</p>
+          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day008-BasicKYC" class="text-blue-600 hover:underline">View on GitHub</a>
+        </div>
+        <div class="bg-white shadow p-6 rounded-xl">
+          <h3 class="text-xl font-semibold mb-2">VoterVault</h3>
+          <p class="mb-2 text-gray-600">Create proposals and allow users to vote.</p>
+          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day009-VoterVault" class="text-blue-600 hover:underline">View on GitHub</a>
         </div>
       </div>
     </div>
-  </section>  <!-- Footer -->  <footer class="text-center text-gray-600 text-sm py-6">
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-gray-600 text-sm py-6">
     Built with ❤ by Michealking · 30 Days of Solidity Challenge · 2025
   </footer>
-</body></html>
+</body>
+</html>
