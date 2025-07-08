@@ -15,6 +15,7 @@ This is the codebase for my personal website hosted on GitHub Pages:
 - 🧪 Foundry testing projects (coming soon)
 - 🧠 Learn in public journey
 - 🌍 Connect with me on [X/Twitter](https://x.com/BuildsWithKing)
+- 🌍 Connect with me on [Linkedin](https://www.linkedin.com/in/christian-michealking-89724434a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 ---
 
