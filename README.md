@@ -34,3 +34,6 @@ Solidity Developer | Smart Contract Builder
 Follow the challenge → [GitHub](https://github.com/BuildsWithKing) | [Twitter](https://x.com/BuildsWithKing)
 
 ---
+👋 This portfolio structure has been cloned by 69+ developers.  
+If you use or remix it, a ⭐ or credit to @BuildsWithKing is appreciated.
+---
