@@ -1,50 +1,77 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-<section id="about" class="max-w-4xl mx-auto px-6 py-12">
-    <div class="bg-slate-800 p-8 rounded-xl border border-slate-700 shadow">
-      <h2 class="text-2xl font-bold">About Me</h2>
-      <p class="mt-3 text-slate-300">I’m Christian (Michealking) — building in public and learning Solidity deeply. I focus on clean contracts, gas optimisation, unit testing with Foundry, and documented deployments. My goal: ship high-quality smart contracts and grow into a production-level smart contract engineer.</p>
-
-      <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <dl>
-          <dt class="text-sm text-slate-400">Location</dt>
-          <dd class="font-medium">Nigeria</dd>
-
-          <dt class="text-sm text-slate-400 mt-3">Tooling</dt>
-          <dd class="font-medium">Foundry · Solidity · Git </dd>
-        </dl>
-
-        <div>
-          <dt class="text-sm text-slate-400">Open for</dt>
-          <dd class="font-medium">Collaboration, mentorship, projects (small/medium), learning-focused roles</dd>
-
-          <dt class="text-sm text-slate-400 mt-3">Links</dt>
-          <dd class="mt-1 flex gap-2">
-            <a class="px-3 py-1 bg-slate-700 rounded" href="https://github.com/BuildsWithKing" target="_blank">GitHub</a>
-            <a class="px-3 py-1 bg-slate-700 rounded" href="https://www.linkedin.com/in/christian-michealking" target="_blank">LinkedIn</a>
-            <a class="px-3 py-1 bg-slate-700 rounded" href="https://x.com/BuildsWithKing" target="_blank">X</a>
-          </dd>
-        </div>
+  <meta name="description" content="About Michealking — BuildsWithKing · Solidity developer" />
+  <title>About — Michealking | BuildsWithKing</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="/assets/favicon.png" />
+  <style>
+    .glass { background: linear-gradient(135deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); backdrop-filter: blur(6px); }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-indigo-950 to-black text-slate-100 antialiased">
+  
+  <!-- Header -->
+  <header class="max-w-6xl mx-auto p-6 flex items-center justify-between">
+    <a href="/" class="flex items-center gap-3">
+      <div class="w-12 h-12 rounded-full bg-gradient-to-tr from-yellow-400 to-orange-500 flex items-center justify-center text-black font-bold">MK</div>
+      <div>
+        <div class="text-xl font-semibold">Michealking</div>
+        <div class="text-sm text-slate-400">aka BuildsWithKing</div>
       </div>
+    </a>
+    <nav class="space-x-4 text-sm">
+      <a href="/" class="px-3 py-2 rounded hover:bg-white/5">Home</a>
+      <a href="about-contact.html" class="px-3 py-2 rounded bg-white/5">About</a>
+      <a href="day1-20.html" class="px-3 py-2 rounded hover:bg-white/5">Day 1–20</a>
+      <a href="day21-30.html" class="px-3 py-2 rounded hover:bg-white/5">Day 21–30</a>
+      <a href="https://github.com/BuildsWithKing" target="_blank" class="px-3 py-2 rounded bg-white/5">GitHub</a>
+    </nav>
+  </header>
 
-      <div class="mt-6">
-        <h3 class="text-lg font-semibold">Contact</h3>
-        <p class="text-slate-400 mt-2">Prefer DMs on X or GitHub Issues. For serious offers, email: <span class="text-indigo-300">buildswithking@gmail.com</span></p>
+  <!-- Main Content -->
+  <main class="max-w-5xl mx-auto px-6 py-12">
+    <section class="glass p-8 rounded-xl shadow-lg">
+      <h1 class="text-3xl md:text-5xl font-bold mb-4">About Me</h1>
+      <p class="text-slate-300 text-lg leading-relaxed">
+        Hey 👋 I’m <span class="text-indigo-400 font-semibold">Michealking</span>, a Solidity & Web3 developer focused on building secure, gas-optimized smart contracts. 
+        I’m currently on a personal challenge: <strong>30 Projects in 30 Days</strong> — to sharpen my skills, master Ethereum development, and push myself to ship real, tested code daily.
+      </p>
+
+      <p class="text-slate-300 text-lg leading-relaxed mt-4">
+        My focus is on:
+      </p>
+      <ul class="list-disc list-inside text-slate-400 mt-2 space-y-1">
+        <li>Gas optimization techniques for Ethereum contracts</li>
+        <li>Using <span class="text-indigo-300">Foundry</span> for testing & automation</li>
+        <li>Deploying & verifying on Etherscan</li>
+        <li>Clean, production-ready patterns</li>
+      </ul>
+
+      <p class="text-slate-300 text-lg leading-relaxed mt-6">
+        Beyond just building, I’m here to leave a <strong>legacy</strong> in blockchain — crafting tools, ideas, and open-source work that inspire the next generation of devs. 
+        Every repo you see is part of that bigger story.
+      </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="mt-12 glass p-8 rounded-xl shadow-lg">
+      <h2 class="text-2xl font-semibold mb-3">Contact</h2>
+      <p class="text-slate-300">Want to collaborate, mentor, or just connect? I’m open to opportunities and conversations.</p>
+      <div class="mt-4 flex flex-wrap gap-3">
+        <a href="https://github.com/BuildsWithKing" target="_blank" class="px-4 py-2 rounded bg-white/5 hover:bg-white/10">GitHub</a>
+        <a href="https://x.com/BuildsWithKing" target="_blank" class="px-4 py-2 rounded bg-white/5 hover:bg-white/10">X (Twitter)</a>
+        <a href="https://www.linkedin.com/in/christian-michealking" target="_blank" class="px-4 py-2 rounded bg-white/5 hover:bg-white/10">LinkedIn</a>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <!-- Footer -->
-  <footer class="border-t border-slate-700 mt-12 py-6 text-center text-slate-400">
-    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-      <div>Built with ❤ by <strong>Michealking</strong> · 30 Days of Solidity · 2025</div>
-      <div class="flex items-center gap-3">
-        <a href="https://github.com/BuildsWithKing" target="_blank" class="text-slate-300">GitHub</a>
-        <a href="https://sepolia.etherscan.io/address/0x864e98ec84c6ec0089ddfcf4266e2dca0bdef40a" target="_blank" class="text-slate-300">Contract</a>
-      </div>
-    </div>
+  <footer class="mt-12 py-8 text-center text-slate-500 text-sm">
+    Built with ❤🔥 by Michealking · <a href="https://github.com/BuildsWithKing" class="underline text-slate-300">GitHub</a>
   </footer>
+
+</body>
+</html>
