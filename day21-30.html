@@ -43,7 +43,6 @@
         <div class="flex-1">
           <div class="text-xs text-slate-300">Progress</div>
           <div class="w-full bg-white/5 rounded h-3 mt-2 overflow-hidden">
-            <!-- set width to reflect progress; update as you complete days -->
             <div class="h-3 bg-indigo-500" style="width: 0%"></div>
           </div>
         </div>
@@ -53,7 +52,7 @@
 
     <!-- Grid of days -->
     <section class="mt-10 grid gap-6">
-      <!-- Day block template -->
+      <!-- Day 21 -->
       <article class="grid gap-4 md:grid-cols-2">
         <div class="p-6 glass rounded-xl">
           <div class="flex items-start justify-between">
@@ -63,34 +62,14 @@
             </div>
             <div class="text-xs text-slate-300">Testing · Deploy</div>
           </div>
-
           <div class="mt-4 grid gap-3">
-            <!-- Project A -->
             <div class="p-4 bg-white/3 rounded-lg">
-              <div class="flex items-start justify-between">
-                <div>
-                  <div class="font-medium">Project A — SimpleBank</div>
-                  <div class="text-xs text-slate-300 mt-1">Refactored SimpleBank, with unit tests (deposit/withdraw), edge-case coverage.</div>
-                </div>
-                <div class="ml-4 flex flex-col gap-2">
-                  <a href="#" class="text-xs px-3 py-1 rounded bg-indigo-600 hover:bg-indigo-500">Repo (coming)</a>
-                  <a href="#" class="text-xs px-3 py-1 rounded border border-white/10">Docs</a>
-                </div>
-              </div>
+              <div class="font-medium">Project A — SimpleBank</div>
+              <div class="text-xs text-slate-300 mt-1">Refactor deposit/withdraw logic, add unit tests for edge cases.</div>
             </div>
-
-            <!-- Project B -->
             <div class="p-4 bg-white/3 rounded-lg">
-              <div class="flex items-start justify-between">
-                <div>
-                  <div class="font-medium">Project B — DonationVault</div>
-                  <div class="text-xs text-slate-300 mt-1">Tests for donation flows, onlyOwner withdraws and reentrancy checks.</div>
-                </div>
-                <div class="ml-4 flex flex-col gap-2">
-                  <a href="#" class="text-xs px-3 py-1 rounded bg-indigo-600 hover:bg-indigo-500">Repo (coming)</a>
-                  <a href="#" class="text-xs px-3 py-1 rounded border border-white/10">Docs</a>
-                </div>
-              </div>
+              <div class="font-medium">Project B — DonationVault</div>
+              <div class="text-xs text-slate-300 mt-1">Full donation flow tests, onlyOwner withdraws & reentrancy guards.</div>
             </div>
           </div>
         </div>
@@ -100,36 +79,18 @@
           <div class="flex items-start justify-between">
             <div>
               <h3 class="text-lg font-semibold">Day 22</h3>
-              <p class="text-sm text-slate-400 mt-1">Advanced contract patterns & tests.</p>
+              <p class="text-sm text-slate-400 mt-1">NFTs & Poll systems testing.</p>
             </div>
             <div class="text-xs text-slate-300">NFTs · Polls</div>
           </div>
-
           <div class="mt-4 grid gap-3">
             <div class="p-4 bg-white/3 rounded-lg">
-              <div class="flex items-start justify-between">
-                <div>
-                  <div class="font-medium">Project A — NFTVault</div>
-                  <div class="text-xs text-slate-300 mt-1">Store NFT metadata, access controls; unit tests for CRUD operations.</div>
-                </div>
-                <div class="ml-4 flex flex-col gap-2">
-                  <a href="#" class="text-xs px-3 py-1 rounded bg-indigo-600">Repo (coming)</a>
-                  <a href="#" class="text-xs px-3 py-1 rounded border border-white/10">Docs</a>
-                </div>
-              </div>
+              <div class="font-medium">Project A — NFTVault</div>
+              <div class="text-xs text-slate-300 mt-1">Metadata storage tests, CRUD operations & access control checks.</div>
             </div>
-
             <div class="p-4 bg-white/3 rounded-lg">
-              <div class="flex items-start justify-between">
-                <div>
-                  <div class="font-medium">Project B — DecentralizedPoll</div>
-                  <div class="text-xs text-slate-300 mt-1">Improve poll lifecycle and test vote-counting & admin flows.</div>
-                </div>
-                <div class="ml-4 flex flex-col gap-2">
-                  <a href="#" class="text-xs px-3 py-1 rounded bg-indigo-600">Repo (coming)</a>
-                  <a href="#" class="text-xs px-3 py-1 rounded border border-white/10">Docs</a>
-                </div>
-              </div>
+              <div class="font-medium">Project B — DecentralizedPoll</div>
+              <div class="text-xs text-slate-300 mt-1">Vote lifecycle tests & tally validation.</div>
             </div>
           </div>
         </div>
@@ -141,36 +102,18 @@
           <div class="flex items-start justify-between">
             <div>
               <h3 class="text-lg font-semibold">Day 23</h3>
-              <p class="text-sm text-slate-400 mt-1">Scripts and repeatable deployments.</p>
+              <p class="text-sm text-slate-400 mt-1">Deployment scripts & user data contracts.</p>
             </div>
-            <div class="text-xs text-slate-300">Scripts · Gas</div>
+            <div class="text-xs text-slate-300">Scripts · Data</div>
           </div>
-
           <div class="mt-4 grid gap-3">
             <div class="p-4 bg-white/3 rounded-lg">
-              <div class="flex items-start justify-between">
-                <div>
-                  <div class="font-medium">Project A — EmailRegistry</div>
-                  <div class="text-xs text-slate-300 mt-1">Tests + deploy script; owner-only read endpoints for admin.</div>
-                </div>
-                <div class="ml-4 flex flex-col gap-2">
-                  <a href="#" class="text-xs px-3 py-1 rounded bg-indigo-600">Repo (coming)</a>
-                  <a href="#" class="text-xs px-3 py-1 rounded border border-white/10">Docs</a>
-                </div>
-              </div>
+              <div class="font-medium">Project A — EmailRegistry</div>
+              <div class="text-xs text-slate-300 mt-1">Tests + deploy script; owner-only endpoints.</div>
             </div>
-
             <div class="p-4 bg-white/3 rounded-lg">
-              <div class="flex items-start justify-between">
-                <div>
-                  <div class="font-medium">Project B — UserStorage</div>
-                  <div class="text-xs text-slate-300 mt-1">Refactored, full test coverage and deployment script.</div>
-                </div>
-                <div class="ml-4 flex flex-col gap-2">
-                  <a href="https://github.com/BuildsWithKing/gassaverapp-with-foundry" target="_blank" rel="noopener" class="text-xs px-3 py-1 rounded bg-indigo-600">Repo</a>
-                  <a href="https://sepolia.etherscan.io/address/0x864e98ec84c6ec0089ddfcf4266e2dca0bdef40a" target="_blank" rel="noopener" class="text-xs px-3 py-1 rounded border border-white/10">Etherscan</a>
-                </div>
-              </div>
+              <div class="font-medium">Project B — UserStorage</div>
+              <div class="text-xs text-slate-300 mt-1">Full CRUD tests & deployment script.</div>
             </div>
           </div>
         </div>
@@ -180,261 +123,150 @@
           <div class="flex items-start justify-between">
             <div>
               <h3 class="text-lg font-semibold">Day 24</h3>
-              <p class="text-sm text-slate-400 mt-1">Security and referral logic.</p>
+              <p class="text-sm text-slate-400 mt-1">Security features & referral testing.</p>
             </div>
             <div class="text-xs text-slate-300">Guard · Referral</div>
           </div>
-
           <div class="mt-4 grid gap-3">
             <div class="p-4 bg-white/3 rounded-lg">
-              <div class="flex items-start justify-between">
-                <div>
-                  <div class="font-medium">Project A — WalletGuard</div>
-                  <div class="text-xs text-slate-300 mt-1">Add protections, whitelists and test simulated attacks.</div>
-                </div>
-                <div class="ml-4 flex flex-col gap-2">
-                  <a href="#" class="text-xs px-3 py-1 rounded bg-indigo-600">Repo (coming)</a>
-                  <a href="#" class="text-xs px-3 py-1 rounded border border-white/10">Docs</a>
-                </div>
-              </div>
+              <div class="font-medium">Project A — WalletGuard</div>
+              <div class="text-xs text-slate-300 mt-1">Whitelist, anti-attack tests & security checks.</div>
             </div>
-
             <div class="p-4 bg-white/3 rounded-lg">
-              <div class="flex items-start justify-between">
-                <div>
-                  <div class="font-medium">Project B — ReferralSystem</div>
-                  <div class="text-xs text-slate-300 mt-1">Refactor referral tracking, add tests and anti-abuse checks.</div>
-                </div>
-                <div class="ml-4 flex flex-col gap-2">
-                  <a href="#" class="text-xs px-3 py-1 rounded bg-indigo-600">Repo (coming)</a>
-                  <a href="#" class="text-xs px-3 py-1 rounded border border-white/10">Docs</a>
-                </div>
-              </div>
+              <div class="font-medium">Project B — ReferralSystem</div>
+              <div class="text-xs text-slate-300 mt-1">Referral tracking tests & anti-abuse validation.</div>
             </div>
           </div>
         </div>
       </article>
 
-      <!-- Day 25 & 26 -->
+      <!-- Day 25 -->
       <article class="grid gap-4 md:grid-cols-2">
         <div class="p-6 glass rounded-xl">
           <div class="flex items-start justify-between">
             <div>
               <h3 class="text-lg font-semibold">Day 25</h3>
-              <p class="text-sm text-slate-400 mt-1">Records & voting improvements.</p>
+              <p class="text-sm text-slate-400 mt-1">Records & voting contracts.</p>
             </div>
             <div class="text-xs text-slate-300">Records · Voting</div>
           </div>
-
           <div class="mt-4 grid gap-3">
             <div class="p-4 bg-white/3 rounded-lg">
-              <div class="flex items-start justify-between">
-                <div>
-                  <div class="font-medium">Project A — StudentRecordSystem</div>
-                  <div class="text-xs text-slate-300 mt-1">Improve record security & add full tests for roles.</div>
-                </div>
-                <div class="ml-4 flex flex-col gap-2">
-                  <a href="#" class="text-xs px-3 py-1 rounded bg-indigo-600">Repo (coming)</a>
-                </div>
-              </div>
+              <div class="font-medium">Project A — StudentRecordSystem</div>
+              <div class="text-xs text-slate-300 mt-1">Role-based access tests & data integrity checks.</div>
             </div>
-
             <div class="p-4 bg-white/3 rounded-lg">
-              <div class="flex items-start justify-between">
-                <div>
-                  <div class="font-medium">Project B — VotingApp</div>
-                  <div class="text-xs text-slate-300 mt-1">Refactor voting with robust tally & test double-vote prevention.</div>
-                </div>
-                <div class="ml-4 flex flex-col gap-2">
-                  <a href="#" class="text-xs px-3 py-1 rounded bg-indigo-600">Repo (coming)</a>
-                </div>
-              </div>
+              <div class="font-medium">Project B — VotingApp</div>
+              <div class="text-xs text-slate-300 mt-1">Tallying tests & double-vote prevention.</div>
             </div>
           </div>
         </div>
 
+        <!-- Day 26 -->
         <div class="p-6 glass rounded-xl">
           <div class="flex items-start justify-between">
             <div>
               <h3 class="text-lg font-semibold">Day 26</h3>
-              <p class="text-sm text-slate-400 mt-1">Ownership & KYC.</p>
+              <p class="text-sm text-slate-400 mt-1">Ownership & KYC validation.</p>
             </div>
             <div class="text-xs text-slate-300">Ownership · KYC</div>
           </div>
-
           <div class="mt-4 grid gap-3">
             <div class="p-4 bg-white/3 rounded-lg">
-              <div class="flex items-start justify-between">
-                <div>
-                  <div class="font-medium">Project A — OwnershipManager</div>
-                  <div class="text-xs text-slate-300 mt-1">Transfer patterns & test onlyOwner flows.</div>
-                </div>
-                <div class="ml-4">
-                  <a href="#" class="text-xs px-3 py-1 rounded bg-indigo-600">Repo (coming)</a>
-                </div>
-              </div>
+              <div class="font-medium">Project A — OwnershipManager</div>
+              <div class="text-xs text-slate-300 mt-1">Transfer patterns & onlyOwner flow tests.</div>
             </div>
-
             <div class="p-4 bg-white/3 rounded-lg">
-              <div class="flex items-start justify-between">
-                <div>
-                  <div class="font-medium">Project B — BasicKYC</div>
-                  <div class="text-xs text-slate-300 mt-1">Verification state, tests and admin flows.</div>
-                </div>
-                <div class="ml-4">
-                  <a href="#" class="text-xs px-3 py-1 rounded bg-indigo-600">Repo (coming)</a>
-                </div>
-              </div>
+              <div class="font-medium">Project B — BasicKYC</div>
+              <div class="text-xs text-slate-300 mt-1">Verification state tests & admin control checks.</div>
             </div>
           </div>
         </div>
       </article>
 
-      <!-- Day 27 & 28 -->
+      <!-- Day 27 -->
       <article class="grid gap-4 md:grid-cols-2">
         <div class="p-6 glass rounded-xl">
           <div class="flex items-start justify-between">
             <div>
               <h3 class="text-lg font-semibold">Day 27</h3>
-              <p class="text-sm text-slate-400 mt-1">Advanced data structures.</p>
+              <p class="text-sm text-slate-400 mt-1">Advanced struct & enum projects.</p>
             </div>
             <div class="text-xs text-slate-300">Structs · Enums</div>
           </div>
-
           <div class="mt-4 grid gap-3">
             <div class="p-4 bg-white/3 rounded-lg">
-              <div class="flex items-start justify-between">
-                <div>
-                  <div class="font-medium">Project A — DreamVault (Advanced)</div>
-                  <div class="text-xs text-slate-300 mt-1">Packed structs + nested mappings for multi-dream support.</div>
-                </div>
-                <div class="ml-4">
-                  <a href="#" class="text-xs px-3 py-1 rounded bg-indigo-600">Repo (coming)</a>
-                </div>
-              </div>
+              <div class="font-medium">Project A — DreamVault (Advanced)</div>
+              <div class="text-xs text-slate-300 mt-1">Packed structs + nested mappings tests.</div>
             </div>
-
             <div class="p-4 bg-white/3 rounded-lg">
-              <div class="flex items-start justify-between">
-                <div>
-                  <div class="font-medium">Project B — TodoList (Advanced)</div>
-                  <div class="text-xs text-slate-300 mt-1">Status enum, prioritized tasks, and tests.</div>
-                </div>
-                <div class="ml-4">
-                  <a href="#" class="text-xs px-3 py-1 rounded bg-indigo-600">Repo (coming)</a>
-                </div>
-              </div>
+              <div class="font-medium">Project B — TodoList (Advanced)</div>
+              <div class="text-xs text-slate-300 mt-1">Status enum tests & priority sorting validation.</div>
             </div>
           </div>
         </div>
 
+        <!-- Day 28 -->
         <div class="p-6 glass rounded-xl">
           <div class="flex items-start justify-between">
             <div>
               <h3 class="text-lg font-semibold">Day 28</h3>
-              <p class="text-sm text-slate-400 mt-1">Polish & refactor.</p>
+              <p class="text-sm text-slate-400 mt-1">Event-driven refactors.</p>
             </div>
-            <div class="text-xs text-slate-300">Events · Tiers</div>
+            <div class="text-xs text-slate-300">Events · Access</div>
           </div>
-
           <div class="mt-4 grid gap-3">
             <div class="p-4 bg-white/3 rounded-lg">
-              <div class="flex items-start justify-between">
-                <div>
-                  <div class="font-medium">Project A — QuoteVault (Refactor)</div>
-                  <div class="text-xs text-slate-300 mt-1">Events & modifiers; tighten validation & tests.</div>
-                </div>
-                <div class="ml-4">
-                  <a href="#" class="text-xs px-3 py-1 rounded bg-indigo-600">Repo (coming)</a>
-                </div>
-              </div>
+              <div class="font-medium">Project A — QuoteVault</div>
+              <div class="text-xs text-slate-300 mt-1">Events & modifiers tests with strict validation.</div>
             </div>
-
             <div class="p-4 bg-white/3 rounded-lg">
-              <div class="flex items-start justify-between">
-                <div>
-                  <div class="font-medium">Project B — WhiteList (Advanced)</div>
-                  <div class="text-xs text-slate-300 mt-1">Tiered whitelist with admin levels and tests.</div>
-                </div>
-                <div class="ml-4">
-                  <a href="#" class="text-xs px-3 py-1 rounded bg-indigo-600">Repo (coming)</a>
-                </div>
-              </div>
+              <div class="font-medium">Project B — WhiteList</div>
+              <div class="text-xs text-slate-300 mt-1">Tiered whitelist tests & role permissions.</div>
             </div>
           </div>
         </div>
       </article>
 
-      <!-- Day 29 & 30 -->
+      <!-- Day 29 -->
       <article class="grid gap-4 md:grid-cols-2">
         <div class="p-6 glass rounded-xl">
           <div class="flex items-start justify-between">
             <div>
               <h3 class="text-lg font-semibold">Day 29</h3>
-              <p class="text-sm text-slate-400 mt-1">Final polishing for smaller utilities.</p>
+              <p class="text-sm text-slate-400 mt-1">Utility projects polish.</p>
             </div>
-            <div class="text-xs text-slate-300">Contacts · Ideas</div>
+            <div class="text-xs text-slate-300">Utilities</div>
           </div>
-
           <div class="mt-4 grid gap-3">
             <div class="p-4 bg-white/3 rounded-lg">
-              <div class="flex items-start justify-between">
-                <div>
-                  <div class="font-medium">Project A — ContactBook</div>
-                  <div class="text-xs text-slate-300 mt-1">Refactored contact storage, Tests & import/export helpers.</div>
-                </div>
-                <div class="ml-4">
-                  <a href="#" class="text-xs px-3 py-1 rounded bg-indigo-600">Repo (coming)</a>
-                </div>
-              </div>
+              <div class="font-medium">Project A — ContactBook</div>
+              <div class="text-xs text-slate-300 mt-1">Import/export helpers & CRUD tests.</div>
             </div>
-
             <div class="p-4 bg-white/3 rounded-lg">
-              <div class="flex items-start justify-between">
-                <div>
-                  <div class="font-medium">Project B — ProjectIdeaStorage</div>
-                  <div class="text-xs text-slate-300 mt-1">Pagination helpers and stronger test coverage.</div>
-                </div>
-                <div class="ml-4">
-                  <a href="#" class="text-xs px-3 py-1 rounded bg-indigo-600">Repo (coming)</a>
-                </div>
-              </div>
+              <div class="font-medium">Project B — ProjectIdeaStorage</div>
+              <div class="text-xs text-slate-300 mt-1">Pagination tests & improved storage validation.</div>
             </div>
           </div>
         </div>
 
+        <!-- Day 30 -->
         <div class="p-6 glass rounded-xl">
           <div class="flex items-start justify-between">
             <div>
               <h3 class="text-lg font-semibold">Day 30 — Capstone</h3>
-              <p class="text-sm text-slate-400 mt-1">Coming Soon...</p>
+              <p class="text-sm text-slate-400 mt-1">Final mastery project.</p>
             </div>
             <div class="text-xs text-slate-300">Capstone</div>
           </div>
-
           <div class="mt-4 grid gap-3">
             <div class="p-4 bg-white/3 rounded-lg">
               <div class="font-medium">Capstone — Final Build</div>
-              <div class="text-xs text-slate-300 mt-1">Refactored contract, full tests, CI, deployment scripts & UI demo.</div>
-            </div>
-
-            <div class="mt-3 flex gap-2">
-              <a href="#" class="px-3 py-2 rounded bg-indigo-600 text-xs">Capstone Plan (coming)</a>
-              <a href="#" class="px-3 py-2 rounded border border-white/10 text-xs">Capstone Repo</a>
+              <div class="text-xs text-slate-300 mt-1">Combines patterns from all previous projects; full test suite & UI demo.</div>
             </div>
           </div>
         </div>
       </article>
-    </section>
-
-    <!-- Quick tips -->
-    <section class="mt-12 max-w-3xl mx-auto text-slate-300">
-      <h4 class="font-semibold">Quick Tips</h4>
-      <ul class="list-disc ml-5 mt-3 space-y-2 text-sm">
-        <li>Use Foundry: forge test, forge coverage, forge script — Deployed scripts for each project.</li>
-        <li>Keep .env secrets out of the repo. Use GitHub Actions secrets for CI.</li>
-        <li>Each completed day has a seperate folder and a clear README.md per project.</li>
-      </ul>
     </section>
   </main>
 
