@@ -1,134 +1,205 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Day 1–20 Projects | BuildsWithKing</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Day 1–20 · BuildsWithKing</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>.card{transition: transform .18s ease, box-shadow .18s ease;} .card:hover{transform: translateY(-6px); box-shadow: 0 10px 30px rgba(0,0,0,0.6)}</style>
 </head>
-<body>
-  <header>
-    <h1>Day 1–20 Projects</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="day1-20.html">Day 1–20 Projects</a>
-      <a href="day21-30.html">Day 21–30 Projects</a>
-    </nav>
-  </header>
-
-  <main>
-   <!-- Projects Section -->
-  <section class="py-12 px-6 bg-gray-50">
-    <div class="max-w-4xl mx-auto">
-      <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
-      <div class="grid gap-6 md:grid-cols-2">
-        <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Day 01: UserStorage</h3>
-          <p class="mb-2 text-gray-600">Store & update user info like name and age using a mapping.</p>
-          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day001-UserStorage" class="text-blue-600 hover:underline">View on GitHub</a>
-        </div>
-        <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Day 02: QuoteVault</h3>
-          <p class="mb-2 text-gray-600">Store your favorite quote. Simple mapping storage.</p>
-          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day002-QuoteVault" class="text-blue-600 hover:underline">View on GitHub</a>
-        </div>
-        <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Day 03: DreamVault</h3>
-          <p class="mb-2 text-gray-600">Save, update, and view personal dreams using structs and mappings.</p>
-          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day003-DreamVault" class="text-blue-600 hover:underline">View on GitHub</a>
-        </div>
-        <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Day 04: ToDoList</h3>
-          <p class="mb-2 text-gray-600">Add, update, and delete tasks using array and mappings.</p>
-          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day004-ToDoList" class="text-blue-600 hover:underline">View on GitHub</a>
-        </div>
-        <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Day 05: WhiteList</h3>
-          <p class="mb-2 text-gray-600">Manage access using a boolean whitelist mapping system.</p>
-          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day005-WhitelistDapp" class="text-blue-600 hover:underline">View on GitHub</a>
-        </div>
-        <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Day 06: SimpleBank</h3>
-          <p class="mb-2 text-gray-600">Deposit & withdraw ETH securely with access control.</p>
-          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day006-SimpleBank" class="text-blue-600 hover:underline">View on GitHub</a>
-        </div>
-        <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Day 07: DonationVault</h3>
-          <p class="mb-2 text-gray-600">Receive ETH donations and withdraw only by the contract owner.</p>
-          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day007-DonationVaultDapp" class="text-blue-600 hover:underline">View on GitHub</a>
-        </div>
-        <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Day 08: BasicKYC</h3>
-          <p class="mb-2 text-gray-600">Register users and mark them as verified or not.</p>
-          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day008-BasicKYC" class="text-blue-600 hover:underline">View on GitHub</a>
-        </div>
-        <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Day 09: VoterVault</h3>
-          <p class="mb-2 text-gray-600">Create proposals and allow users to vote.</p>
-          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day009-VoterVault" class="text-blue-600 hover:underline">View on GitHub</a>
-        </div>
-        <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Day 10: Ownership Manager</h3>
-          <p class="mb-2 text-gray-600">Access control & ownership transfer.</p>
-          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day010-OwnershipManager" class="text-blue-600 hover:underline">View on GitHub</a>
-        </div>
-        <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Day 11: ProjectIdeaStorage</h3>
-          <p class="mb-2 text-gray-600">Smart contract where users can submit and retrieve project ideas.</p>
-          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day011-ProjectIdeaStorage" class="text-blue-600 hover:underline">View on GitHub</a>
-        </div>
-        <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Day 12: ContactBook</h3>
-          <p class="mb-2 text-gray-600">Stores and manages user-submitted contacts</p>
-          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day012-ContactBook" class="text-blue-600 hover:underline">View on GitHub</a>
-        </div>
-          <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Day 13: NFTVault</h3>
-          <p class="mb-2 text-gray-600">A decentralized smart contract that enables users to store, update, access, and delete information about their NFTs</p>
-          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day013-NFTVault" class="text-blue-600 hover:underline">View on GitHub</a>
-        </div>
-        <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Day 14: ReferralSystem</h3>
-          <p class="mb-2 text-gray-600">A decentralized smart contract that Stores users data, tracks user referrals, rewards them for inviting others and keeps referral history organized per user.</p>
-          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day014-ReferralSystem" class="text-blue-600 hover:underline">View on GitHub</a>
-        </div>
-        <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Day 15: WalletGuard</h3>
-          <p class="mb-2 text-gray-600">A decentralized smart contract that acts as a protective layer over user wallets, enables users to whitelist safe addresses, block unknown interactions, and optionally pause wallet operation if a threat is detected.</p>
-           <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day015-WalletGuard" class="text-blue-600 hover:underline">View on GitHub</a>
-        </div>
-        <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Day 16: DecentralizedPoll</h3>
-          <p class="mb-2 text-gray-600">A decentralized smart contract that allows users to create, vote and view results of polls on-chain. Contract owner can controls contract lifecycle, and results are transaparent.</p>
-          <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day016-DecentralizedPoll" class="text-blue-600 hover:underline">View on GitHub</a>
-        </div>
-        <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Day 17: EmailRegistry</h3>
-          <p class="mb-2 text-gray-600">A decentralized smart contract that allows users to register and update their email addresses on-chain in a secure and decentralized manner.</p>
-           <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day017-EmailRegistry" class="text-blue-600 hover:underline">View on GitHub</a>
-        </div>
-        <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Day 18: StudentRecordSystem</h3>
-          <p class="mb-2 text-gray-600">A decentralized student record system that allows a registrar, academic staff, and grades manager to register students, assign scores, and compute performance grades, while students and the public can view verified academic records.</p>
-           <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day018-StudentRecordSystem" class="text-blue-600 hover:underline">View on GitHub</a>
-        </div>
-         <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Day 19: SimpleAuction</h3>
-          <p class="mb-2 text-gray-600">A modular, decentralized auction system where sellers can register items and users can bid ETH. Built with enums, access control, and full auction lifecycle tracking — from registration to bidding, ending, and cancellation.</p>
-           <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day019-SimpleAuction" class="text-blue-600 hover:underline">View on GitHub</a>
-        </div>
-        <div class="bg-white shadow p-6 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Day 20: GasSaverApp</h3>
-          <p class="mb-2 text-gray-600">A decentralized smart contract that demonstrates real-world gas optimization techniques.</p>
-           <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day020-GasSaverApp" class="text-blue-600 hover:underline">View on GitHub</a> 
-      </div>
+<body class="bg-slate-900 text-slate-100">
+  <div class="max-w-6xl mx-auto p-6">
+    <a href="/" class="inline-block mb-6 text-slate-300">← Back</a>
+    <h1 class="text-3xl font-bold">Day 1–20 Projects</h1>
+    <p class="mt-2 text-slate-400">A curated list of the first 20 projects I built during the 30 Days of Solidity challenge. Each card links to the repo / folder.</p><div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+  <!-- Repeatable project card -->
+  <!-- Day 01 -->
+  <article class="card bg-gradient-to-br from-slate-800 to-slate-850 p-6 rounded-xl">
+    <h3 class="font-semibold text-lg">Day 01 — UserStorage</h3>
+    <p class="mt-2 text-slate-400">Store & update user info like name and age using a mapping.</p>
+    <div class="mt-4 flex gap-2">
+      <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day001-UserStorage" target="_blank" class="px-3 py-2 rounded bg-indigo-600">View</a>
+      <a href="#" class="px-3 py-2 rounded border border-white/10">Demo (TBD)</a>
     </div>
-  </section>
-  </main>
+  </article>
 
-  <footer>
-    <p>© 2025 BuildsWithKing</p>
-  </footer>
+  <!-- Day 02 -->
+  <article class="card bg-gradient-to-br from-slate-800 to-slate-850 p-6 rounded-xl">
+    <h3 class="font-semibold text-lg">Day 02 — QuoteVault</h3>
+    <p class="mt-2 text-slate-400">Store your favorite quote. Simple mapping storage.</p>
+    <div class="mt-4 flex gap-2">
+      <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day002-QuoteVault" target="_blank" class="px-3 py-2 rounded bg-indigo-600">View</a>
+    </div>
+  </article>
+
+  <!-- Day 03 -->
+  <article class="card bg-gradient-to-br from-slate-800 to-slate-850 p-6 rounded-xl">
+    <h3 class="font-semibold text-lg">Day 03 — DreamVault</h3>
+    <p class="mt-2 text-slate-400">Save, update, and view personal dreams using structs and mappings.</p>
+    <div class="mt-4 flex gap-2">
+      <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day003-DreamVault" target="_blank" class="px-3 py-2 rounded bg-indigo-600">View</a>
+    </div>
+  </article>
+
+  <!-- Day 04 -->
+  <article class="card bg-gradient-to-br from-slate-800 to-slate-850 p-6 rounded-xl">
+    <h3 class="font-semibold text-lg">Day 04 — ToDoList</h3>
+    <p class="mt-2 text-slate-400">Add, update, and delete tasks using array and mappings.</p>
+    <div class="mt-4 flex gap-2">
+      <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day004-ToDoList" target="_blank" class="px-3 py-2 rounded bg-indigo-600">View</a>
+    </div>
+  </article>
+
+  <!-- Day 05 -->
+  <article class="card bg-gradient-to-br from-slate-800 to-slate-850 p-6 rounded-xl">
+    <h3 class="font-semibold text-lg">Day 05 — WhiteList</h3>
+    <p class="mt-2 text-slate-400">Manage access using a boolean whitelist mapping system.</p>
+    <div class="mt-4 flex gap-2">
+      <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day005-WhitelistDapp" target="_blank" class="px-3 py-2 rounded bg-indigo-600">View</a>
+    </div>
+  </article>
+
+  <!-- Day 06 -->
+  <article class="card bg-gradient-to-br from-slate-800 to-slate-850 p-6 rounded-xl">
+    <h3 class="font-semibold text-lg">Day 06 — SimpleBank</h3>
+    <p class="mt-2 text-slate-400">Deposit & withdraw ETH securely with access control.</p>
+    <div class="mt-4 flex gap-2">
+      <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day006-SimpleBank" target="_blank" class="px-3 py-2 rounded bg-indigo-600">View</a>
+    </div>
+  </article>
+
+  <!-- Day 07 -->
+  <article class="card bg-gradient-to-br from-slate-800 to-slate-850 p-6 rounded-xl">
+    <h3 class="font-semibold text-lg">Day 07 — DonationVault</h3>
+    <p class="mt-2 text-slate-400">Receive ETH donations and withdraw only by the contract owner.</p>
+    <div class="mt-4 flex gap-2">
+      <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day007-DonationVaultDapp" target="_blank" class="px-3 py-2 rounded bg-indigo-600">View</a>
+    </div>
+  </article>
+
+  <!-- Day 08 -->
+  <article class="card bg-gradient-to-br from-slate-800 to-slate-850 p-6 rounded-xl">
+    <h3 class="font-semibold text-lg">Day 08 — BasicKYC</h3>
+    <p class="mt-2 text-slate-400">Register users and mark them as verified or not.</p>
+    <div class="mt-4 flex gap-2">
+      <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day008-BasicKYC" target="_blank" class="px-3 py-2 rounded bg-indigo-600">View</a>
+    </div>
+  </article>
+
+  <!-- Day 09 -->
+  <article class="card bg-gradient-to-br from-slate-800 to-slate-850 p-6 rounded-xl">
+    <h3 class="font-semibold text-lg">Day 09 — VoterVault</h3>
+    <p class="mt-2 text-slate-400">Create proposals and allow users to vote.</p>
+    <div class="mt-4 flex gap-2">
+      <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day009-VoterVault" target="_blank" class="px-3 py-2 rounded bg-indigo-600">View</a>
+    </div>
+  </article>
+
+  <!-- Day 10 -->
+  <article class="card bg-gradient-to-br from-slate-800 to-slate-850 p-6 rounded-xl">
+    <h3 class="font-semibold text-lg">Day 10 — Ownership Manager</h3>
+    <p class="mt-2 text-slate-400">Access control & ownership transfer.</p>
+    <div class="mt-4 flex gap-2">
+      <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day010-OwnershipManager" target="_blank" class="px-3 py-2 rounded bg-indigo-600">View</a>
+    </div>
+  </article>
+
+  <!-- Day 11 -->
+  <article class="card bg-gradient-to-br from-slate-800 to-slate-850 p-6 rounded-xl">
+    <h3 class="font-semibold text-lg">Day 11 — ProjectIdeaStorage</h3>
+    <p class="mt-2 text-slate-400">Smart contract where users can submit and retrieve project ideas.</p>
+    <div class="mt-4 flex gap-2">
+      <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day011-ProjectIdeaStorage" target="_blank" class="px-3 py-2 rounded bg-indigo-600">View</a>
+    </div>
+  </article>
+
+  <!-- Day 12 -->
+  <article class="card bg-gradient-to-br from-slate-800 to-slate-850 p-6 rounded-xl">
+    <h3 class="font-semibold text-lg">Day 12 — ContactBook</h3>
+    <p class="mt-2 text-slate-400">Stores and manages user-submitted contacts</p>
+    <div class="mt-4 flex gap-2">
+      <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day012-ContactBook" target="_blank" class="px-3 py-2 rounded bg-indigo-600">View</a>
+    </div>
+  </article>
+
+  <!-- Day 13 -->
+  <article class="card bg-gradient-to-br from-slate-800 to-slate-850 p-6 rounded-xl">
+    <h3 class="font-semibold text-lg">Day 13 — NFTVault</h3>
+    <p class="mt-2 text-slate-400">Store, update, access, and delete information about NFTs.</p>
+    <div class="mt-4 flex gap-2">
+      <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day013-NFTVault" target="_blank" class="px-3 py-2 rounded bg-indigo-600">View</a>
+    </div>
+  </article>
+
+  <!-- Day 14 -->
+  <article class="card bg-gradient-to-br from-slate-800 to-slate-850 p-6 rounded-xl">
+    <h3 class="font-semibold text-lg">Day 14 — ReferralSystem</h3>
+    <p class="mt-2 text-slate-400">Referral tracking and reward distribution.</p>
+    <div class="mt-4 flex gap-2">
+      <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day014-ReferralSystem" target="_blank" class="px-3 py-2 rounded bg-indigo-600">View</a>
+    </div>
+  </article>
+
+  <!-- Day 15 -->
+  <article class="card bg-gradient-to-br from-slate-800 to-slate-850 p-6 rounded-xl">
+    <h3 class="font-semibold text-lg">Day 15 — WalletGuard</h3>
+    <p class="mt-2 text-slate-400">Protective layer for wallets, whitelist & pause functionality.</p>
+    <div class="mt-4 flex gap-2">
+      <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day015-WalletGuard" target="_blank" class="px-3 py-2 rounded bg-indigo-600">View</a>
+    </div>
+  </article>
+
+  <!-- Day 16 -->
+  <article class="card bg-gradient-to-br from-slate-800 to-slate-850 p-6 rounded-xl">
+    <h3 class="font-semibold text-lg">Day 16 — DecentralizedPoll</h3>
+    <p class="mt-2 text-slate-400">Create, vote and view poll results on-chain.</p>
+    <div class="mt-4 flex gap-2">
+      <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day016-DecentralizedPoll" target="_blank" class="px-3 py-2 rounded bg-indigo-600">View</a>
+    </div>
+  </article>
+
+  <!-- Day 17 -->
+  <article class="card bg-gradient-to-br from-slate-800 to-slate-850 p-6 rounded-xl">
+    <h3 class="font-semibold text-lg">Day 17 — EmailRegistry</h3>
+    <p class="mt-2 text-slate-400">Register and update email addresses on-chain.</p>
+    <div class="mt-4 flex gap-2">
+      <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day017-EmailRegistry" target="_blank" class="px-3 py-2 rounded bg-indigo-600">View</a>
+    </div>
+  </article>
+
+  <!-- Day 18 -->
+  <article class="card bg-gradient-to-br from-slate-800 to-slate-850 p-6 rounded-xl">
+    <h3 class="font-semibold text-lg">Day 18 — StudentRecordSystem</h3>
+    <p class="mt-2 text-slate-400">Registrar & academics manage student records on-chain.</p>
+    <div class="mt-4 flex gap-2">
+      <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day018-StudentRecordSystem" target="_blank" class="px-3 py-2 rounded bg-indigo-600">View</a>
+    </div>
+  </article>
+
+  <!-- Day 19 -->
+  <article class="card bg-gradient-to-br from-slate-800 to-slate-850 p-6 rounded-xl">
+    <h3 class="font-semibold text-lg">Day 19 — SimpleAuction</h3>
+    <p class="mt-2 text-slate-400">Modular auction with bidding & lifecycle management.</p>
+    <div class="mt-4 flex gap-2">
+      <a href="https://github.com/BuildsWithKing/30-days-solidity-challenge/tree/main/Day019-SimpleAuction" target="_blank" class="px-3 py-2 rounded bg-indigo-600">View</a>
+    </div>
+  </article>
+
+  <!-- Day 20 -->
+  <article class="card bg-gradient-to-br from-slate-800 to-slate-850 p-6 rounded-xl">
+    <h3 class="font-semibold text-lg">Day 20 — GasSaverApp</h3>
+    <p class="mt-2 text-slate-400">Gas-optimized contract, Foundry tests & deployment.</p>
+    <div class="mt-4 flex gap-2">
+      <a href="https://github.com/BuildsWithKing/gassaverapp-with-foundry" target="_blank" class="px-3 py-2 rounded bg-indigo-600">View</a>
+      <a href="https://sepolia.etherscan.io/address/0x864e98ec84c6ec0089ddfcf4266e2dca0bdef40a" target="_blank" class="px-3 py-2 rounded border border-white/10">Etherscan</a>
+    </div>
+  </article>
+
+</div>
+
+<footer class="mt-12 text-slate-400 text-sm">Built with ❤ by Michealking · <a href="https://github.com/BuildsWithKing" class="underline">GitHub</a></footer>
+
+  </div>
 </body>
 </html>
